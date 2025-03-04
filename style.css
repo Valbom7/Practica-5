@@ -1,0 +1,26 @@
+.banner-picture picture img, .banner-bg {
+    width: 100%;
+    height: auto;
+}
+
+.banner-bg {
+    background-image: url('1024.png');
+    background-repeat: no-repeat;
+    height: 400px; 
+    width: 100%;
+}
+
+
+/* Media Queries para background-image */
+@media (max-width: 720px) {
+    .banner-bg {
+        background-image: url('720.png');
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-bg {
+        background-image: url('480.png');
+    }
+}
+
